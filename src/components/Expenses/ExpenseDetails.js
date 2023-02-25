@@ -1,4 +1,5 @@
 import './ExpenseItem.css';
+import React from "react";
 const ExpenseDetails=(props)=>{
     const title = props.title;
     const amount = props.amount;
